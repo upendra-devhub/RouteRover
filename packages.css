@@ -1,0 +1,567 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+}
+
+.logo h1 {
+  color: white;
+  margin: 0;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links li a:hover {
+  color: #ffcc00; 
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+      flex-direction: column;
+      display: none; 
+  }
+  .navbar:hover .nav-links {
+      display: flex; 
+  }
+}
+img{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+.d{
+  display: flex;
+  gap: 15px;
+}
+.navbar1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1288f7;
+  padding: 1rem;
+}
+
+.logo h1 {
+  color: white;
+  margin: 0;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links li a:hover {
+  color: #ffcc00; 
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+      flex-direction: column;
+      display: none; 
+  }
+  .navbar:hover .nav-links {
+      display: flex;
+  }
+}
+img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.d{
+  display: flex;
+  gap: 15px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.about-intro {
+  padding: 90px 20px;
+  text-align: center;
+
+}
+
+.about-intro p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 20px auto;
+}
+.dd{
+  height: 33px;
+  width: 100%;
+  background-color: #28a745;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  position: absolute;
+  top: 80px;
+  left: 0px;
+position: fixed;
+  
+}
+.pa{
+  background-color: aliceblue;
+  margin: 20px;
+  padding: 0px;
+  width: 100%;
+margin-left: 0px;
+margin-top: 2.5pc;
+margin-bottom: 1pc;
+}
+.p1{
+  display: flex;
+  gap: 5px;
+  padding: 10px;
+  margin-top: -.5pc;
+}
+.p11{
+  height: 450px;
+  width: 20%;
+  background-image: url(uk1\ \(1\).jpg);
+   align-items: center;
+   text-align: center;
+}
+.p11:hover{
+background: url(nainital.2jpg\ \(1\).jpg);
+height: 960px;
+width: 540px;
+}
+.p12{
+  height: 450px;
+  width: 20%;
+  background-image:url(hr.jpg);
+}
+.p12:hover{
+  background-image: url(haridwar.jpg);
+  height: 960px;
+  width: 540px;
+}
+.p13{
+  height: 450px;
+  width: 20%;
+  background-image: url(uk3\ \(1\).jpg);
+   align-items: center;
+   text-align: center;
+}
+.p13:hover{
+  height: 960px;
+  width: 540px;
+  background: url(kedarnath.jpg);
+}
+.p14{
+  height: 450px;
+  width: 20%;
+  background-image: url(uk4\ \(1\).jpg);
+   align-items: center;
+   text-align: center;
+}
+.p14:hover{
+  height: 960px;
+  width: 540px;
+  background: url(rishikesh.jpg);
+}
+.p15{
+  height: 450px;
+  width: 20%;
+  background-image: url(uk5\ \(1\).jpg);
+   align-items: center;
+   text-align: center;
+}
+.p15:hover{
+  height: 960px;
+  width: 540px;
+  background: url(mussoorie2\ \(1\).jpg);
+}
+.ph1{
+  color: rgba(245, 245, 245, 0.873);
+  text-align: center;
+  font-size: 42px;
+  font-family:monospace;
+  font-weight: bold;
+  margin-top: 65%
+}
+.p101{
+  background: #28a78c;
+  color: white;
+
+}
+.p1011{
+  color: white;
+  background: #28a78c;
+}
+.h101{
+  color: white;
+  font-size: 36px;
+}
+
+.p2{
+  display: flex;
+  gap: 5px;
+  padding: 10px;
+}
+.p21{
+  height: 450px;
+  width: 20%;
+  background:url(zz.jpg);
+}
+.p21:hover{
+  
+  height: 960px;
+  width: 540px;
+  background: url(z.jpg);
+}
+.p22{
+  height: 450px;
+  width: 20%;
+  background:url(m.jpg);
+}
+.p22:hover{
+  
+  height: 960px;
+  width: 540px;
+  background: url(gulmarg.jpg);
+}
+.p23{
+  height: 450px;
+  width: 20%;
+  background:url(n.jpg);
+}
+.p23:hover{
+  
+  height: 960px;
+  width: 540px;
+  background: url(dal.jpg);
+}
+.p24{
+  height: 450px;
+  width: 20%;
+  background:url(v.jpg);
+}
+.p24:hover{
+  
+  height: 960px;
+  width: 540px;
+  background: url(vv.jpg);
+}
+.p25{
+  height: 450px;
+  width: 20%;
+  background:url(x.jpg);
+}
+.p25:hover{
+  
+  height: 960px;
+  width: 540px;
+  background: url(tulip.jpg);
+}
+.p3{
+  display: flex;
+  gap: 5px;
+  padding: 10px;
+}
+.p31{
+  height: 450px;
+  width: 20%;
+  background:url(JAIPUR.jpg);
+}
+.p31:hover{
+  background: url(jaipur1.jpg);
+  height: 960px;
+  width: 540px;
+ 
+}
+.p32{
+  height: 450px;
+  width: 20%;
+  background:url(ud.jpg);
+}
+.p32:hover{
+  
+  height: 960px;
+  width: 540px;
+  background: url(udaipur.jpg);
+}
+.p33{
+  height: 450px;
+  width: 20%;
+  background:url(bkn.jpg);
+}
+.p33:hover{
+  
+  height: 960px;
+  width: 540px;
+  background: url(bikaner.jpg);
+}
+.p34{
+  height: 450px;
+  width: 20%;
+  background:url(jdh.jpg);
+}
+.p34:hover{
+  
+  height: 960px;
+  width: 540px;
+  background: url(jodhpur.jpg);
+}
+.p35{
+  height: 450px;
+  width: 20%;
+  background:url(jsl.jpg);
+}
+.p35:hover{
+  
+  height: 960px;
+  width: 540px;
+  background: url(jaisalmer.jpg);
+}
+.p4{
+  display: flex;
+  gap: 5px;
+  padding: 10px;
+}
+.p41{
+  height: 450px;
+  width: 20%;
+  background:url(bns.jpg);
+}
+.p41:hover{
+  background: url(benaras.jpg);
+  height: 960px;
+  width: 540px;
+ 
+}
+.p42{
+  height: 450px;
+  width: 20%;
+  background:url(ayd.jpg);
+}
+.p42:hover{
+  
+  height: 960px;
+  width: 540px;
+  background: url(ayodhya.jpg);
+}
+.p43{
+  height: 450px;
+  width: 20%;
+  background:url(mth.jpg);
+}
+.p43:hover{
+  
+  height: 960px;
+  width: 540px;
+  background: url(mathura.jpg);
+}
+.p44{
+  height: 450px;
+  width: 20%;
+  background:url(agr.jpg);
+}
+.p44:hover{
+  
+  height: 960px;
+  width: 540px;
+  background: url(agra.jpg);
+}
+.p45{
+  height: 450px;
+  width: 20%;
+  background:url(knp.jpg);
+}
+.p45:hover{
+  
+  height: 960px;
+  width: 540px;
+  background: url(kanpur.jpg);
+}
+.p51{
+  display: flex;
+  gap: 5px;
+  padding: 10px;
+}
+.p511{
+  height: 450px;
+  width: 20%;
+  background:url(pt.jpg);
+}
+.p511:hover{
+  background: url(pangsong.jpg);
+  height: 960px;
+  width: 540px;
+ 
+}
+.p512{
+  height: 450px;
+  width: 20%;
+  background:url(kul.jpg);
+}
+.p512:hover{
+  
+  height: 960px;
+  width: 540px;
+  background: url(kullu.jpg);
+}
+.p513{
+  height: 450px;
+  width: 20%;
+  background:url(spt.jpg);
+}
+.p513:hover{
+  
+  height: 960px;
+  width: 540px;
+  background: url(spiti.jpg);
+}
+.p514{
+  height: 450px;
+  width: 20%;
+  background:url(bk.jpg);
+}
+.p514:hover{
+  
+  height: 960px;
+  width: 540px;
+  background: url(Beas.jpg);
+}
+.p515{
+  height: 450px;
+  width: 20%;
+  background:url(ski.jpg);
+}
+.p515:hover{
+  
+  height: 960px;
+  width: 540px;
+  background: url(sikkim.jpg);
+}
+.p52{
+  display: flex;
+  gap: 5px;
+  padding: 10px;
+}
+.p521{
+  height: 450px;
+  width: 20%;
+  background:url(tr.jpg);
+}
+.p521:hover{
+  background: url(triund.jpg);
+  height: 960px;
+  width: 540px;
+ 
+}
+.p522{
+  height: 450px;
+  width: 20%;
+  background:url(sg.jpg);
+}
+.p522:hover{
+  
+  height: 960px;
+  width: 540px;
+  background: url(goa.jpg);
+}
+.p523{
+  height: 450px;
+  width: 20%;
+  background:url(kw.jpg);
+}
+.p523:hover{
+  
+  height: 960px;
+  width: 540px;
+  background: url(kerala.jpg);
+}
+.p524{
+  height: 450px;
+  width: 20%;
+  background:url(vkl.jpg);
+}
+.p524:hover{
+  
+  height: 960px;
+  width: 540px;
+  background: url(vatta.jpg);
+}
+.p525{
+  height: 450px;
+  width: 20%;
+  background:url(mu.jpg);
+}
+.p525:hover{
+  
+  height: 960px;
+  width: 540px;
+  background: url(munnar.jpg);
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+footer p {
+  margin: 10px 0;
+}
+
+footer form {
+  margin: 20px 0;
+}
+
+footer input[type="email"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 250px;
+}
+
+footer button {
+  padding: 10px 20px;
+  background-color: #ffcc00;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer button:hover {
+  background-color: #e6b800;
+}
+.fd{
+  position: absolute;
+
+  width: 100%;
+  right: 0;
+}

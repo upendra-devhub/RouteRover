@@ -1,0 +1,220 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+}
+
+.logo h1 {
+  color: white;
+  margin: 0;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links li a:hover {
+  color: #ffcc00; 
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+      flex-direction: column;
+      display: none; 
+  }
+  .navbar:hover .nav-links {
+      display: flex; 
+  }
+}
+img{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+.d{
+  display: flex;
+  gap: 15px;
+}
+.navbar1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1288f7;
+  padding: 1rem;
+}
+
+.logo h1 {
+  color: white;
+  margin: 0;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links li a:hover {
+  color: #ffcc00; 
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+      flex-direction: column;
+      display: none; 
+  }
+  .navbar:hover .nav-links {
+      display: flex;
+  }
+}
+img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.d{
+  display: flex;
+  gap: 15px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.about-intro {
+  padding: 90px 20px;
+  text-align: center;
+
+}
+
+.about-intro p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 20px auto;
+}
+.dd{
+  height: 33px;
+  width: 100%;
+  background-color: #28a745;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  position: absolute;
+  top: 80px;
+  left: 0px;
+position: fixed;
+}
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+footer p {
+  margin: 10px 0;
+}
+
+footer form {
+  margin: 20px 0;
+}
+
+footer input[type="email"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 250px;
+}
+
+footer button {
+  padding: 10px 20px;
+  background-color: #ffcc00;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer button:hover {
+  background-color: #e6b800;
+}
+.fd{
+  position: absolute;
+
+  width: 100%;
+  right: 0;
+}
+.login-register {
+      max-width: 400px;
+      margin: 40px auto;
+      padding: 20px;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      background-color: #ffffff;
+    }
+
+    .login-register h2 {
+      color: #333;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .login-register label {
+      font-size: 1rem;
+      color: #333;
+      margin-top: 10px;
+      display: block;
+    }
+
+    .login-register input[type="text"],
+    .login-register input[type="password"],
+    .login-register input[type="email"] {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1rem;
+      box-sizing: border-box;
+    }
+
+    .login-register button {
+      width: 100%;
+      padding: 12px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .login-register button:hover {
+      background-color: #218838;
+    }
